@@ -41,7 +41,8 @@ The Recipe class defines a recipe for a hot beverage with attributes:
 
 Refactor `main.py`.  What can you do to eliminate the long, boring code?
 
-
+create method in Recipe class to defind a coffee, chocolate, milk, sugar and price    
+in Recipe
 
 
 
