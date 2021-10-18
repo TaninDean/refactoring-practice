@@ -11,8 +11,9 @@ Each subdirectory contains some code that needs refactoring.
 ## `time/timestamp.py`
 
 Refactor timestamp.py.  2 or 3 refactorings are possible.
-1.Rename method
-
+1. Rename method
+2. Rename argument
+3. Consolidate Conditional Expression
 
 ## `game_framework/gamelib.py`
 
@@ -22,6 +23,9 @@ Look for refactorings in the class `GameApp`.
 
 * Encapsulate a collection - provide behavior that subclasses of GameApp need instead of requiring them to manipulate a collection that belongs to the GameApp class.
   - Hint: `elements`
+
+  Refactor - fix side effect with create variable contain method return value,
+  Refactor - add paramether to conditon.
 
 ## `recipe/recipe.py` and `recipe/main.py`
 
